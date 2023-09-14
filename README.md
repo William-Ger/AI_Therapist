@@ -75,3 +75,17 @@ For detailed insights and analysis, refer to the `eda` folder in the repository.
 The EDA process was pivotal in shaping the development of the application by providing a clear understanding of the dataset's structure and the relationships between different factors. It served as the foundation upon which the semantic analysis and report generation functionalities were built.
 
 We encourage contributors and users to delve into the EDA process to garner a deeper understanding of the data and the initial analysis carried out in this project.
+
+## Special Thanks
+
+I extend gratitude to:
+
+- **Joakim Arvidsson** for creating the invaluable dataset that serves as the backbone of this project, aiding in the generation of factors using sematic search.
+The kaggle dataset can be found here: https://www.kaggle.com/datasets/joebeachcapital/life-longevity-factors?datasetId=3656167
+- **The creators of txtai** for developing a potent semantic search library that significantly enhanced the project's analytical depth.
+- **The team at OpenAI** for crafting the GPT-4 engine, a cornerstone in the dynamic suggestion generation feature of this project.
+
+Your contributions have been instrumental in bringing this project to fruition.
+
+## License
+Use this repo however you want. I would love to see how people can improve the accuracy of the report and functionality of the tool.
