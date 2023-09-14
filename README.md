@@ -41,6 +41,29 @@ To gain a deeper understanding of the data, various visualizations were created 
 
 ![Screenshot](EDA_Semantic_Therapist.png)
 
+### 1. Distribution of Years Gained or Lost
+
+The distribution of years gained or lost showcases a somewhat bimodal characteristic, exhibiting peaks in the ranges of -10 to 0 years and 0 to 10 years. This distribution hints at a significant presence of factors that have the potential to either diminish or extend lifespan by a margin of up to 10 years. Moreover, there are factors identifiable within the dataset that exert a more pronounced negative influence, potentially decreasing lifespan by over 20 years.
+
+### 2. Average Years Gained or Lost by Strength of Science
+
+When we delve into the analysis grounded on the strength of the supporting science, an interesting observation surfaces:
+
+- **Strong Science:** Factors substantiated by "strong" scientific backing predominantly harbor a negative impact on lifespan. This trend suggests a greater scientific focus on identifying factors that curtail lifespan rather than those extending it.
+  
+- **Suggestive or Good Science:** On the flip side, factors falling under the "suggestive" or "good" categories of scientific backing tend to foster a positive influence on lifespan, alluding to a lifespan-enhancing potential associated with these factors.
+
+### 3. Average Years Gained or Lost by Sex Affected
+
+An analysis based on the affected sex categorization yields the following insights:
+
+- **General Trend:** A generally positive average in years gained or lost across all categories points to a predominance of lifespan-extending factors in the dataset.
+  
+- **Female Category:** The factors pertaining to the "Female" category are observed to facilitate a higher average in years gained when juxtaposed with the "Male" category, inferring a more favorable influence of these factors on females.
+   
+- **Mixed Sex Categories:** The categories encompassing mixed sexes (e.g., "Both, but more in women") unravel a spectrum of effects, underscoring the intricate nature of the influence these factors exert across different sexes.
+
+
 ### Feature Engineering
 
 Feature engineering was carried out to create meaningful features from the existing data, which were later used in the semantic analysis process. This involved:
