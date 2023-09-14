@@ -39,7 +39,7 @@ To gain a deeper understanding of the data, various visualizations were created 
 - Identify the distribution of factors affecting life expectancy
 - Visualize the potential years gained or lost associated with different factors
 
-[EDA_Semantic_Therapist.png]
+![Screenshot](EDA_Semantic_Therapist.png)
 
 ### Feature Engineering
 
