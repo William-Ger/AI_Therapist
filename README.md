@@ -56,7 +56,6 @@ Some of the critical insights derived from the EDA include:
 The following tools and libraries were utilized in the EDA process:
 - **Pandas:** For data manipulation and analysis.
 - **Matplotlib/Seaborn:** For creating visualizations to understand the data better.
-- **NLTK:** For natural language processing tasks during feature engineering.
 
 ### Notebooks and Scripts
 
