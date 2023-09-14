@@ -1,5 +1,5 @@
 Prompts:
-
+Provide suggestions to improve life based on the factor: {factors}
 
 Inputs:
 Mental Health, Working Out, drugs, sex
