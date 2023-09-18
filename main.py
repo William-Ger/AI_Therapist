@@ -11,7 +11,7 @@ openai.api_key = 'ENTER-KEY-HERE'
 
 def generate_therapy_report(user_input_text):
     # Create an instance of the Embeddings class and build an index with the factor descriptions
-    embeddings = Embeddings({"method": "transformers", "path": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1"})
+    embeddings = Embeddings({"method": "transformers", "path": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"})
     factor_descriptions = data['factor'].values.tolist()
     embeddings.index([(i, text, None) for i, text in enumerate(factor_descriptions)])
 
