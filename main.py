@@ -7,7 +7,7 @@ data_path = 'LiveLongerData_Cleaned.csv'
 data = pd.read_csv(data_path)
 
 # Set OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'Enter-Key'
 
 def generate_therapy_report(user_input_text):
     # Create an instance of the Embeddings class and build an index with the factor descriptions
