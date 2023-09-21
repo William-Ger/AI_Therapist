@@ -7,7 +7,7 @@ data_path = 'LiveLongerData_Cleaned.csv'
 data = pd.read_csv(data_path)
 
 # Set OpenAI API key
-openai.api_key = 'ENTER-KEY-HERE'
+openai.api_key = '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'
 
 def generate_therapy_report(user_input_text):
     # Create an instance of the Embeddings class and build an index with the factor descriptions
@@ -39,25 +39,25 @@ def generate_therapy_report(user_input_text):
     return report_sections
 
 # Get user input and generate a personalized report
-user_input_text = input("Please provide a brief description of your lifestyle and areas you wish to improve upon: ")
-report_sections = generate_therapy_report(user_input_text)
+# user_input_text = input("Please provide a brief description of your lifestyle and areas you wish to improve upon: ")
+# report_sections = generate_therapy_report(user_input_text)
 
-# Create a markdown document to store the report
-md_path = "Life_Consultation_Report.md"
+# # Create a markdown document to store the report
+# md_path = "Life_Consultation_Report.md"
 
-# Create a string to hold the markdown content
-md_content = "# Personalized Life Consulting Report\n\nDear User,\n\nBased on the details you provided, here are some personalized suggestions to help improve your life:\n\n"
+# # Create a string to hold the markdown content
+# md_content = "# Personalized Life Consulting Report\n\nDear User,\n\nBased on the details you provided, here are some personalized suggestions to help improve your life:\n\n"
 
-# Add each section to the markdown content
-for section in report_sections:
-    md_content += section
+# # Add each section to the markdown content
+# for section in report_sections:
+#     md_content += section
 
-# Add conclusion to the markdown content
-md_content += "\n## Conclusion\n\nEvery small positive change can significantly impact your life. We recommend gradually incorporating the above suggestions into your daily routine.\n"
+# # Add conclusion to the markdown content
+# md_content += "\n## Conclusion\n\nEvery small positive change can significantly impact your life. We recommend gradually incorporating the above suggestions into your daily routine.\n"
 
-# Save the markdown content to a file
-with open(md_path, 'w') as f:
-    f.write(md_content)
+# # Save the markdown content to a file
+# with open(md_path, 'w') as f:
+#     f.write(md_content)
 
-# Inform the user that the report has been saved as a markdown file
-print(f"The report has been saved as a markdown file at the following location: {md_path}")
+# # Inform the user that the report has been saved as a markdown file
+# print(f"The report has been saved as a markdown file at the following location: {md_path}")
