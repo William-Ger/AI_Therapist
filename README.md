@@ -13,7 +13,7 @@ Ensure Python 3.x is installed. Download it from the [Python official website](h
 ### Step 1: Clone the Repository
 
 ```sh
-gh repo clone William-Ger/Semantic_Therapist
+gh repo clone William-Ger/AI_Therapist
 ```
 
 ### Step 2: Install the Dependencies
